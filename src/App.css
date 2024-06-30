@@ -1,7 +1,0 @@
-.App {
-  position: relative;
-  color: var(--very-dark-blue);
-  background-color: var(--light-grey);
-  overflow: hidden;
-  min-height: 100vh;
-}

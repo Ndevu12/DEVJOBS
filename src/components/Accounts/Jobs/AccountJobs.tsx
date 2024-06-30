@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import transformTime from '../../../utils/transformTime';
 
-import './AccountJobs.css';
+import '../../../styles/Jobs.css';
 
 import Notification from "../../Notification/Notification";
 

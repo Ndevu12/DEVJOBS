@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css";
+import '../src/styles/App.css';
 import Header from "./components/Header/Header";
 import FilterForm from "./components/FilterForm/FilterForm";
 import Jobs from "./components/Jobs/Jobs";
@@ -15,7 +15,7 @@ interface filterData {
 }
 
 function App() {
-  let darkModeValue = localStorage.getItem('darkMode') === 'true' ? true : false;
+  let darkModeValue = localStorage.getItem('darkMode') === 'true' ? false : true;
 
   const [darkMode, setDarkMode] = useState(darkModeValue);
 
