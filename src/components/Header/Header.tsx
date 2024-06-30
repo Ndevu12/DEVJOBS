@@ -1,4 +1,4 @@
-import "./Header.css";
+import "../../styles/Header.css";
 import { useEffect, useState } from "react";
 
 import profilePhoto from '../assets/profile.png'
@@ -41,7 +41,7 @@ const Header = (props: hearderProps) => {
       <div className="header__left">
         <div className="header__actions">
           <figure>
-            <img src={require("../assets/desktop/icon-sun.svg").default} alt="" />
+            <img src={require("../assets/desktop/icon-moon.svg").default} alt="" />
           </figure>
           <div
             className={"light--dark-switch " + (darkMode && "dark--on")}
@@ -51,7 +51,7 @@ const Header = (props: hearderProps) => {
           </div>
           <figure>
             <img
-              src={require("../assets/desktop/icon-moon.svg").default}
+              src={require("../assets/desktop/icon-sun.svg").default}
               alt=""
             />
           </figure>
